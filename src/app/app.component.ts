@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Internship-Project-One';
+  public individuals = 2;
 }

@@ -1,0 +1,39 @@
+#profile-picture {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color:grey;
+}
+
+.newEmail {
+    background-color: blue;
+}
+
+#closebutton {
+    background-color: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 0px;
+    display: inline-block;
+    padding: 1px;
+}
+#minimizebutton {
+    background-color:yellow;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 0px;
+    display: inline-block;
+    padding: 1px;
+}
+
+#maximizebutton {
+    background-color: green;
+    border-radius: 50%;
+    height: 15px;
+    width: 15gepx;
+    font-size: 0px;
+    display: inline-block;
+    padding: 1px;
+}
