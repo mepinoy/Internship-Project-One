@@ -1,8 +1,12 @@
 <div class="container-fluid">
     <div class="row">
         <div>
-            <button><i class="fa fa-search"></i></button>
-            <input type="text" placeholder="Search">
+            <button [appSearchHighlight] = "image"><i></i></button>
+            <input id="SearchBar" type="text" placeholder="Search">
+            <i id="left" class="fa fa-angle-left fa-fw"></i>
+            <i id="double-left" class="fa fa-angle-double-left fa-fw"></i>
+            <i id="right" class="fa fa-angle-right fa-fw"></i>
+            <i id="close" class="fa fa-times fa-fw"></i>
         </div>
     </div>
 </div>

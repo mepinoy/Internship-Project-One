@@ -13,7 +13,23 @@
         </div>
     </div>
     <!-- Options -->
-    <div class="row newEmail">
-        <button>New Email</button>
+    <div class="row justify-content-center">
+        <button [appMessageHighlight] = "highlightcolor" class="newEmail">New Message</button>
+    </div>
+
+    <div>
+        <p id="inbox" class="fa fa-chevron-down">Inbox (2)</p>
+    </div>
+    <div>
+        <p id="drafts" class="fa fa-chevron-right">Drafts</p>
+    </div>
+    <div>
+        <p id="sent" class="fa fa-chevron-right">Sent</p>
+    </div>
+    <div>
+        <p id="spam" class="fa fa-flag">Spam</p>
+    </div>
+    <div>
+        <p id="trash" class="fa fa-times">Trash</p>
     </div>
 </div>

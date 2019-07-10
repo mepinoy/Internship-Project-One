@@ -6,7 +6,12 @@
 }
 
 .newEmail {
-    background-color: blue;
+    background-color:blue;
+    color: whitesmoke;
+    border-radius: 20%;
+    border: none;
+    outline: none;
+    width: 50%;
 }
 
 #closebutton {
@@ -32,8 +37,28 @@
     background-color: green;
     border-radius: 50%;
     height: 15px;
-    width: 15gepx;
+    width: 15px;
     font-size: 0px;
     display: inline-block;
     padding: 1px;
+}
+
+#inbox {
+    padding-top: 20px;
+}
+
+#drafts {
+    padding-top: 20px;
+}
+
+#sent {
+    padding-top: 20px;
+}
+
+#spam {
+    padding-top: 20px;
+}
+
+#trash {
+    padding-top: 20px;
 }
