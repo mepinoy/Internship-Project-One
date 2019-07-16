@@ -1,0 +1,19 @@
+<div class="container"> 
+    <div class="row justify-content-center">
+        <form [formGroup]="messageForm" (ngSubmit) = "onSubmit()">
+            <!-- This is the form-group for the to textbox -->
+            <div class="form-group">
+                <label for="to">To</label>
+                <input
+              type="text"
+              id="name"
+              formControlName="email"
+              class="form-control">
+
+            <span
+              *ngIf="!signupForm.get('name').valid && signupForm.get('name').touched"
+              class="form-text text-muted">Please enter a recipient!</span>
+            </div>
+        </form>
+    </div>
+</div>

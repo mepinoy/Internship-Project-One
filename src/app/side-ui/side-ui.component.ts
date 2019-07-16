@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-side-ui',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SideUiComponent implements OnInit {
 
-  constructor() { }
+  public readonly emailForm: FormGroup;
 
+  constructor(private readonly fb: FormBuilder) {
+    this.emailForm = this.fb.group({
+    to: '',
+    cc: '',
+    bcc: '',
+    Subject: '',
+    Content: '',
+    })
+  }
   ngOnInit() {
   }
-
+ onClick() {
+ }
 }
